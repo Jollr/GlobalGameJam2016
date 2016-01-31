@@ -1,0 +1,69 @@
+.ritual {
+	width: 300px;
+	height: 208px;
+	border: 2px solid;
+	font-family: calibri;
+	font-size: 16px;
+	float: left;
+	background-image: url('rituals/background.png');	
+}
+
+.ritual:nth-child(8n) {
+	margin-bottom: 85px;
+}
+
+.left {
+	width: 20%;
+	height: 100%;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;
+	border-right: 1px solid;
+}
+
+.no-cost {
+	font-size: 14px;
+	font-style: italic;
+}
+
+.cost {
+	margin-bottom: 5px;
+}
+
+.costs-title {
+	margin-bottom: 5px;
+}
+
+.effect {
+	padding-top: 4px;
+}
+
+.right {
+	float: right;
+	width: 80%;
+}
+
+.title {
+	height: 15%;
+	padding-top: 6px;
+	padding-left: 5px;
+}
+
+.ritual .top {
+	font-size: 16px;
+	border-bottom: solid 1px;
+}
+
+.ritual .title {
+}
+
+.effect {
+	height: 50%;
+	padding-left: 5px;
+}
+
+.flavour {
+	height: 35%;
+	padding-left: 5px;
+	font-style: italic;
+}
